@@ -124,6 +124,13 @@
       "venue": "遥感学报 · 贾玉钰， 迟凯晨， 周情， 李强， 王琦",
       "content": "这项工作让模型不再只依赖文本与图像的粗粒度对齐，而是以实体为“锚点”，逐步建立语言描述、目标区域与空间位置之间的明确对应关系。通过多层次跨模态交互不断校准语义与视觉线索，使模型既能在复杂遥感场景中准确找到“所指之物”，也能细致刻画其不规则边界。\n",
       "link": ""
+    },
+    {
+      "year": "2024",
+      "title": "Embedding Generalized Semantic Knowledge into Few-Shot Remote Sensing Segmentation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Qi Wang, Yuyu Jia, Wei Huang, Junyu Gao, Qiang Li",
+      "content": "这项工作不再让少量支持样本独自承担“定义类别”的重任，而是将类别描述所蕴含的通用语义提前注入特征提取过程，为视觉表征补上一份更稳定的认知先验。通过空间密集交互与全局内容调制，语言知识从局部定位和整体语义两个层面重塑支持—查询特征，使模型在显著类内差异下依然能够看准目标、分清边界。",
+      "link": ""
     }
   ],
   "projects": [
