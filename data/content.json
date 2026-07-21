@@ -82,6 +82,48 @@
       "venue": "IEEE Transactions on Multimedia · Yuyu Jia, Qing Zhou, Junyu Gao, Qiang Li, Qi Wang",
       "content": "这项工作试图让小样本学习更接近人类认知：以语言提供“类别共识”，以图像补足“个体细节”，通过双向知识渗透构建由一般语义到具体实例的层次化表征。进一步引入语义解耦机制，主动削弱模型对基类经验的路径依赖，使潜在的新类信息不再被既有知识掩盖。",
       "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Generalized Few-Shot Semantic Segmentation for Remote Sensing Images",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Yuyu Jia, Jiabo Li, Qi Wang",
+      "content": "这项工作将遥感小样本分割从“只识别新类”的理想化设定，推进到新旧类别并存的真实场景：无需人为构造支持—查询配对，即可完成全类别像素级解析。进一步通过动态原型更新与背景感知自挖掘，化解基类偏置和复杂背景干扰，让模型学习新类时不再以遗忘旧类为代价。",
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Dual-View Classifier Evolution for Generalized Remote Sensing Few-Shot Segmentation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Yuyu Jia, Wenhao Fu, Junyu Gao, Qi Wang",
+      "content": "这项工作不再将基类与新类分类器简单拼接，而是让分类器沿两条路径主动“进化”：借助成熟的基类知识反哺新类判别，同时利用查询图像的上下文将其塑造成因样本而异的动态分类器。配合双视角混合训练，模型既能压低基类偏置，又能从容应对遥感目标显著的类内差异，实现“学习新类而不遗忘旧类”。 \n",
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Entity-Guided Attention Twisting Network for Referring Remote Sensing Image Segmentation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Yuyu Jia, Qing Zhou, Junyu Gao, Qi Wang",
+      "content": "这项工作让语言不再隔空“指挥”像素，而是先从图像中自主推理出具有空间约束的实体提示，将实体、视觉与文本组织为一个协同交互的三模态空间。随后，注意力先沿通道传播跨模态语义，再“扭转”至空间维度追踪不规则地物边界，使模型从“听懂描述”进一步走向“找准实体、描清轮廓”。 ",
+      "link": ""
+    },
+    {
+      "year": "2023",
+      "title": "Exploring Hard Samples in Multiview for Few-Shot Remote Sensing Scene Classification",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Yuyu Jia, Junyu Gao, Wei Huang, Yuan Yuan, Qi Wang",
+      "content": "这项工作把最容易被忽视的“难样本”推到学习中心：通过旋转多视角，让模型从不同空间朝向理解同一场景，并提炼不随视角变化的稳定表征。进一步以类别自适应策略主动锁定决策边界附近的高不确定样本，再借助度量约束将其“拉回”正确的特征空间，让模型不是绕开难题，而是利用难题把分类边界磨得更锋利。\n",
+      "link": ""
+    },
+    {
+      "year": "2023",
+      "title": "Holistic Mutual Representation Enhancement for Few-Shot Remote Sensing Segmentation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Yuyu Jia, Junyu Gao, Wei Huang, Yuan Yuan, Qi Wang",
+      "content": "这项工作打破了“支持图像单向教、查询图像被动学”的传统范式，让二者在对等的信息流中相互校准、共同塑造更可靠的目标表征。通过全局语义与空间密集关系的协同增强，模型既能跨越遥感目标显著的类内差异，又能从复杂背景中双向唤醒真正对应的区域，让少样本分割从“单向匹配”走向“互相理解”。\n",
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "title": "实体引导和跨模态交互的遥感图像指向分割",
+      "venue": "遥感学报 · 贾玉钰， 迟凯晨， 周情， 李强， 王琦",
+      "content": "这项工作让模型不再只依赖文本与图像的粗粒度对齐，而是以实体为“锚点”，逐步建立语言描述、目标区域与空间位置之间的明确对应关系。通过多层次跨模态交互不断校准语义与视觉线索，使模型既能在复杂遥感场景中准确找到“所指之物”，也能细致刻画其不规则边界。\n",
+      "link": ""
     }
   ],
   "projects": [
