@@ -131,6 +131,55 @@
       "venue": "IEEE Transactions on Geoscience and Remote Sensing · Qi Wang, Yuyu Jia, Wei Huang, Junyu Gao, Qiang Li",
       "content": "这项工作不再让少量支持样本独自承担“定义类别”的重任，而是将类别描述所蕴含的通用语义提前注入特征提取过程，为视觉表征补上一份更稳定的认知先验。通过空间密集交互与全局内容调制，语言知识从局部定位和整体语义两个层面重塑支持—查询特征，使模型在显著类内差异下依然能够看准目标、分清边界。",
       "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "A Semantic-Guided Framework for Few-Shot Remote Sensing Object Detection",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Chenchen Sun, Yuyu Jia, Han Han, Qiang Li, Qi Wang",
+      "content": "这项工作为小样本遥感检测补上了“找得准”与“认得稳”两块拼图：借助 SAM 的像素关联能力重塑候选区域生成，使自然图像中学到的结构经验更好地落地于遥感场景。进一步将类别文本凝练为不受单幅图像限制的语义原型，用语言知识补足稀缺视觉样本，让模型面对外观多变的新类目标时仍能抓住其共同本质。",
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "title": "Weakly Paired Remote Sensing Change Captioning with Large Multimodal Model",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · Qing Zhou, Junzheng Wu, Yuyu Jia, Shihao Zhou, Junyu Gao, Weiping Ni, Qi Wang",
+      "content": "这项工作让遥感变化描述摆脱对精细图文配对标注的依赖：仅凭“变化对象—变化动作”这类弱配对标签，便可驱动大多模态模型先看懂时空变化，再将其组织成连贯而丰富的自然语言。进一步通过训练期语义扩展缩小生成文本与人工表述之间的差距，在不增加推理成本的前提下，以更低的标注代价逼近全监督方法的性能。",
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Enhancing Streamflow Forecasting Using an LSTM Hybrid Model with Lightweight Frequency-Domain Feature Learning",
+      "venue": "Expert Systems with Applications · Yubo Jia, Xiaoling Su, Te Zhang, Haijiang Wu, Yuyu Jia, Qianyu Wang",
+      "content": "这项工作让 LSTM 不只沿时间轴“记住水流”，还借助轻量级频域感知模块，在复数频谱中捕捉降水、流量等水文气象变量之间隐蔽而关键的联动关系。相比不断堆叠卷积、图网络或注意力模块，该模型以更克制的计算代价提升多步预报能力，并在最难捕捉的极端流量面前表现出更强的敏锐度与稳定性。 ",
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "title": "Efficient Reasoning via Thought Compression for Language-Guided Segmentation",
+      "venue": "International Conference on Learning Representation · Qing Zhou, Shiyu Zhang, Yuyu Jia, Junyu Gao, Weiping Ni, Junzheng Wu, Qi Wang",
+      "content": "这项工作让大模型学会“想得深，却说得短”：训练时先生成高度凝练的推理，再用它还原完整思考过程，迫使冗长知识沉淀为足以支撑分割决策的紧凑表征。推理时只保留这段核心思路，并以简洁指令稳定激活压缩策略，使语言引导分割在保持精度的同时大幅减少推理冗余与计算开销。",
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "title": "Reasoning via Implicit Self-supervised Emergence for Instruction Segmentation",
+      "venue": "AAAI Conference on Artificial Intelligence · Qing Zhou, Lichang Yang, Yuyu Jia, Junyu Gao, Weiping Ni, Junzheng Wu, Qi Wang",
+      "content": "这项工作不再为复杂指令堆叠同样复杂的监督，而是仅凭“文本指令与预测区域是否语义一致”这一简洁奖励，让模型在没有真实分割掩码的情况下自主学会推理。空间关系、常识知识与思维链由此从模型内部自然涌现，使其能够先理解“为什么是它”，再准确勾勒“它在哪里”。",
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "title": "Relaxed Bipartite Matching with Structural Inertia for Efficient Diffusion",
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining · Qing Zhou, Xiyao Gong, Weiming Wu, Yuyu Jia, Junyu Gao, Qi Wang",
+      "content": "这项工作不再以僵硬的一一对应压缩扩散计算，而是通过松弛二分匹配，让高度相似的视觉信息以更灵活、更低损耗的方式完成聚合。进一步利用去噪过程中持续存在的“结构惯性”延续稳定匹配关系，避免模型在每一步重复寻找答案，让扩散生成跑得更快，却不轻易牺牲画面结构与细节。 ",
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "High-Order Anchor Graph-Based Clustering for Efficient Structured Proximity Matrix Learning",
+      "venue": "International Conference on Advanced Data Mining and Applications · Zihua Zhao, Yuyu Jia, Huimin Chen, Fangyuan Xie, Ziming Li, Rong Wang",
+      "content": "这项工作不再让所有样本在庞大的相似图中反复“寻找彼此”，而是以少量锚点为支点，将原本昂贵的高阶关系压缩到更轻量的图结构中。进一步借助正交张量分解提炼多阶邻近关系的共同结构，使模型既能找回一阶图遗漏的潜在连接，又能高效学习具有清晰聚类边界的邻近矩阵。",
+      "link": ""
     }
   ],
   "projects": [
