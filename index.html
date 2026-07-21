@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="西安电子科技大学教师个人学术主页">
+  <title>教师姓名｜西安电子科技大学</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-wrap">
+      <a class="wordmark" href="#home"><span class="logo-lines"><i></i><b>XDU</b><i></i></span><span><strong id="siteTitle">智能感知与计算课题组</strong><small>Intelligent Perception & Computing Group</small></span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="展开导航">☰</button>
+      <nav id="nav"><a href="#home">首页</a><a href="#papers">论文</a><a href="#projects">项目</a><a href="#students">学生</a><a href="#join">加入我们</a></nav>
+    </div>
+  </header>
+
+  <main class="page-shell" id="home">
+    <aside class="profile-column">
+      <section class="bio-block"><div class="section-title name-title"><h1 id="name">教师姓名</h1><span id="nameEn">YOUR NAME</span></div><p id="bio"></p><ul class="contact-list" id="contactList"></ul></section>
+      <figure class="portrait"><img id="portrait" alt="教师照片"><div id="portraitFallback"><span>教师照片</span><small>请在管理后台上传</small></div></figure>
+      <section class="side-section"><h2>学习 &amp; 工作经历</h2><ul class="dot-list" id="experienceList"></ul></section>
+      <section class="side-section"><h2>研究方向</h2><ul class="topic-grid" id="researchList"></ul></section>
+      <section class="side-section"><h2>教学</h2><ul class="dot-list" id="teachingList"></ul></section>
+      <section class="side-section"><h2>学术荣誉和奖励</h2><ul class="dot-list" id="awardList"></ul></section>
+      <section class="side-section"><h2>学术服务</h2><ul class="dot-list" id="serviceList"></ul></section>
+    </aside>
+
+    <section class="content-column">
+      <div class="news-heading"><span>NEWS</span><h2>最新动态</h2></div>
+      <div id="newsList" class="news-feed"></div>
+      <section class="collection" id="papers"><div class="collection-title"><span>PUBLICATIONS</span><h2>代表论文</h2></div><div id="paperList"></div></section>
+      <section class="collection" id="projects"><div class="collection-title"><span>PROJECTS</span><h2>科研项目</h2></div><div id="projectList"></div></section>
+      <section class="collection" id="students"><div class="collection-title"><span>STUDENTS</span><h2>学生培养</h2></div><div id="studentList"></div></section>
+      <section class="join-card" id="join"><span>JOIN US</span><h2 id="joinTitle"></h2><p id="joinText"></p><a id="joinEmail" href="#">邮件联系 <b>→</b></a></section>
+    </section>
+  </main>
+
+  <footer><div><strong id="footerName">教师姓名</strong><span>西安电子科技大学</span></div><p>最后更新：<span id="updatedAt"></span></p><a href="admin.html" aria-label="内容管理">内容管理</a></footer>
+  <dialog id="detailModal"><button class="modal-close" type="button" aria-label="关闭">×</button><p id="modalMeta"></p><h2 id="modalTitle"></h2><div id="modalContent"></div><a id="modalLink" target="_blank" rel="noopener">查看相关链接 →</a></dialog>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主页内容管理</title><link rel="stylesheet" href="admin.css"></head>
+<body>
+  <header class="admin-head"><div><span>FACULTY SITE MANAGER</span><h1>主页内容管理</h1></div><a href="index.html">查看主页 ↗</a></header>
+  <main>
+    <section class="connect-card">
+      <div class="connect-copy"><h2>连接 GitHub</h2><p>使用仅限本仓库的 Fine-grained Token。令牌只保存在本次浏览器会话中，不会写入网站。</p></div>
+      <div class="connect-grid"><label>GitHub 用户名<input id="owner" value="jyy2641500343"></label><label>仓库名称<input id="repo" value="faculty-homepage"></label><label>分支<input id="branch" value="main"></label><label>访问令牌<input id="token" type="password" placeholder="github_pat_..."></label></div>
+      <div class="connect-actions"><button id="connect" type="button">连接并读取网站</button><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">创建访问令牌</a><button class="link-btn" id="toggleHelp" type="button">如何设置？</button></div>
+      <ol id="help" hidden><li>创建 Fine-grained personal access token，并将仓库访问范围限定为 <b>faculty-homepage</b>。</li><li>在 Repository permissions 中，将 <b>Contents</b> 设为 Read and write。</li><li>令牌建议设置较短有效期；编辑结束后可在 GitHub 中撤销。</li></ol>
+      <div id="connectionStatus" class="status">尚未连接。您仍可在本地编辑并导出 JSON。</div>
+    </section>
+
+    <section class="studio">
+      <nav id="tabs"></nav>
+      <form id="editor"><div id="fields"></div></form>
+    </section>
+  </main>
+  <footer class="actionbar"><button id="exportJson" type="button">导出备份</button><label class="button-label">导入备份<input id="importJson" type="file" accept="application/json" hidden></label><span id="dirtyState">尚未修改</span><button class="save" id="saveGithub" type="button">保存并发布</button></footer>
+  <div class="toast" id="toast"></div>
+  <script src="admin.js"></script>
+</body></html>
