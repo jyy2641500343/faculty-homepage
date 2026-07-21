@@ -73,7 +73,7 @@
       "year": "2025",
       "title": "Few-Shot Remote Sensing Scene Classification via Parameter-Free Attention and Region Matching",
       "venue": "ISPRS Journal of Photogrammetry and Remote Sensing · Yuyu Jia, Chenchen Sun, Junyu Gao, Qi Wang",
-      "content": "填写论文摘要、主要创新点和实验结论。",
+      "content": "这项工作不再为注意力机制继续“堆参数”，而是让模型在支持样本与查询图像之间，自适应寻找语义一致且空间连贯的关键区域。进一步结合选择性区域匹配与熵感知多区域投票，有效过滤复杂背景和局部噪声，使模型在极少标注样本下仍能稳健识别类内差异显著的遥感场景。",
       "link": ""
     },
     {
