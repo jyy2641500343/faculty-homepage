@@ -1,15 +1,15 @@
 {
-  "siteTitle": "智能感知与计算课题组",
+  "siteTitle": "多源遥感融合探测",
   "updatedAt": "2026-07-21",
   "profile": {
     "name": "贾玉钰",
-    "nameEn": "YOUR NAME",
+    "nameEn": "Yuyu Jia",
     "role": "副教授、硕士生导师",
-    "college": "西安电子科技大学电子工程学院",
-    "email": "yourname@xidian.edu.cn",
+    "college": "西安电子科技大学信息力学与感知工程学院",
+    "email": "jiayuyu@xidian.edu.cn",
     "office": "西安市太白南路2号，西安电子科技大学",
-    "photo": "",
-    "bio": "长期从事人工智能、信号与信息处理、智能感知方向研究。主持或参与多项科研项目，在相关国际期刊和会议发表学术论文。欢迎对科研有热情的本科生和研究生加入团队。"
+    "photo": "assets/uploads/1784627687708-------.jpg",
+    "bio": "长期从事小样本学习、遥感影像智能解译、多源融合探测。已发表高水平论文16篇，成果发表于ISPRS P&RS、IEEE T-MM、IEEE T-GRS、ICLR、KDD、AAAI等遥感与人工智能领域权威期刊会议；授权国家发明专利2项，参编行业标准1项，曾两次在国际顶级学术会议作口头报告，相关研究成果获得多位IEEE Fellow等国内外同行的积极评价。"
   },
   "experience": [
     "2022/07–至今 西安电子科技大学，副教授",
