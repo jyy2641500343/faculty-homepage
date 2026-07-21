@@ -9,7 +9,7 @@
     "email": "jiayuyu@xidian.edu.cn",
     "office": "西安市太白南路2号，西安电子科技大学",
     "photo": "assets/uploads/1784627687708-------.jpg",
-    "bio": "长期从事小样本学习、遥感影像智能解译、多源融合探测。已发表高水平论文16篇，成果发表于ISPRS P&RS、IEEE T-MM、IEEE T-GRS、ICLR、KDD、AAAI等遥感与人工智能领域权威期刊会议；授权国家发明专利2项，参编行业标准1项，曾两次在国际顶级学术会议作口头报告，相关研究成果获得多位IEEE Fellow等国内外同行的积极评价。"
+    "bio": "长期从事小样本学习、遥感影像智能解译、多源融合探测。已发表高水平论文16篇，成果发表于ISPRS P&RS、IEEE T-MM、IEEE T-GRS、ICLR、KDD、AAAI等遥感与人工智能领域权威期刊会议；授权国家发明专利2项，参编行业标准1项，相关研究成果获得多位IEEE Fellow等国内外同行的积极评价。"
   },
   "experience": [
     "2026/07–至今 西安电子科技大学，副教授",
@@ -78,8 +78,8 @@
     },
     {
       "year": "2025",
-      "title": "另一项代表性研究成果",
-      "venue": "国际学术会议 · 教师姓名, 合作者 C",
+      "title": "Like Humans to Few-Shot Learning Through Knowledge Permeation of Visual and Language",
+      "venue": "IEEE Transactions on Multimedia · Yuyu Jia, Qing Zhou, Junyu Gao, Qiang Li, Qi Wang",
       "content": "填写成果的主要内容与学术贡献。",
       "link": ""
     }
