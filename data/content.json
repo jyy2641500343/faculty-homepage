@@ -80,7 +80,7 @@
       "year": "2025",
       "title": "Like Humans to Few-Shot Learning Through Knowledge Permeation of Visual and Language",
       "venue": "IEEE Transactions on Multimedia · Yuyu Jia, Qing Zhou, Junyu Gao, Qiang Li, Qi Wang",
-      "content": "填写成果的主要内容与学术贡献。",
+      "content": "这项工作试图让小样本学习更接近人类认知：以语言提供“类别共识”，以图像补足“个体细节”，通过双向知识渗透构建由一般语义到具体实例的层次化表征。进一步引入语义解耦机制，主动削弱模型对基类经验的路径依赖，使潜在的新类信息不再被既有知识掩盖。",
       "link": ""
     }
   ],
