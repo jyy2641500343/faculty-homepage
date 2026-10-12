@@ -1,6 +1,6 @@
 {
   "siteTitle": "多源遥感融合探测",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-10-12",
   "profile": {
     "name": "贾玉钰（1998年）",
     "nameEn": "Yuyu Jia",
@@ -9,7 +9,7 @@
     "email": "jiayuyu@xidian.edu.cn",
     "office": "西安市太白南路2号，西安电子科技大学",
     "photo": "assets/uploads/1784627687708-------.jpg",
-    "bio": "博士期间师从西北工业大学王琦教授，现隶属于西安电子科技大学全英汇教授团队。\n\n长期从事小样本学习、遥感影像智能解译、多源融合探测。已发表高水平论文16篇，成果发表于ISPRS P&RS、IEEE T-MM、IEEE T-GRS、ICLR、KDD、AAAI等遥感与人工智能领域权威期刊会议；授权国家发明专利2项，参编行业标准1项，相关研究成果获得多位IEEE Fellow等国内外同行的积极评价。"
+    "bio": "博士期间师从西北工业大学王琦教授，现隶属于西安电子科技大学全英汇教授团队。\n\n长期从事小样本学习、遥感影像智能解译、多源融合探测。已发表高水平论文17篇，成果发表于ISPRS P&RS、IEEE T-MM、IEEE T-GRS、ICLR、KDD、AAAI等遥感与人工智能领域权威期刊会议；授权国家发明专利2项，参编行业标准1项。"
   },
   "experience": [
     "2026/07–至今 西安电子科技大学，副教授",
@@ -23,10 +23,9 @@
     "多模态大语言模型",
     "多源融合探测"
   ],
-  "teaching": [
-    "预计2026年9月开展本科生教学"
-  ],
+  "teaching": [],
   "awards": [
+    "ICAI2026 Best Paper",
     "博士国家奖学金",
     "西北工业大学学术之星",
     "”科学试验设计”创新大赛优胜奖",
@@ -36,7 +35,6 @@
   ],
   "services": [
     "ISPRS、TMM、TGRS、TCSVT、PR、AAAI、ACMMM等国际期刊会议审稿人",
-    "《无线电工程》青年编委",
     "Machine Learning and Knowledge Extraction特刊客座编辑",
     "IEEE International Conference on Information Systems and Computing Technology分论坛主席"
   ],
